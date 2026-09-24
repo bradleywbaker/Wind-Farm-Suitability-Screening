@@ -1,0 +1,17 @@
+# Local GIS data
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ArcGIS
+*.lock
+
+# OS files
+.DS_Store
+Thumbs.db
