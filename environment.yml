@@ -1,0 +1,12 @@
+name: wind-farm-suitability
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - geopandas
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
