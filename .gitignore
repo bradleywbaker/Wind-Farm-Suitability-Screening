@@ -11,6 +11,10 @@ __pycache__/
 
 # ArcGIS
 *.lock
+Wind_Farm_Suitability/.backups/
+Wind_Farm_Suitability/Index/
+Wind_Farm_Suitability/Wind_Farm_Suitability.gdb/
+Wind_Farm_Suitability/ImportLog/
 
 # OS files
 .DS_Store
