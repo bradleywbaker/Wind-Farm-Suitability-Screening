@@ -14,7 +14,7 @@ The statewide study area provides a useful test case for bringing together wind 
 
 ## How the Analysis Works
 
-The workflow is organized into three main stages:
+The workflow is organized into three main stages.
 
 ### 1. Prepare the Data
 
@@ -54,6 +54,95 @@ The final suitability classes are:
 
 ### 3. Identify Candidate Areas
 
-The final step looks beyond individual raster cells and asks where there are contiguous areas large enough to warrant further consideration.
+The final step looks beyond individual raster cells and identifies larger contiguous areas that may warrant further consideration.
 
 Moderate and High suitability cells are grouped using 8-neighbor connectivity. Contiguous areas smaller than 5 km² are removed, and the remaining areas are summarized as candidate regions.
+
+## Results
+
+The statewide screening evaluated 19,390,085 cells on the 100 m analysis grid. After applying all hard constraints, 201,808 cells remained eligible for suitability scoring.
+
+The resulting suitability scores ranged from 3.00 to 5.00, with a mean of 4.31 and a median of 4.40.
+
+Moderate and High suitability areas covered 1,088.27 km² before the candidate-area filter was applied.
+
+The candidate-area analysis identified 2,580 contiguous Moderate and High suitability regions. After applying the minimum 5 km² area threshold, 26 candidate areas remained, covering 678.64 km².
+
+## Reproducible Workflow
+
+The production workflow is organized into three scripts:
+
+```text
+scripts/
+├── 01_prepare_data.py
+├── 02_build_suitability_model.py
+└── 03_create_candidates.py
+```
+
+The scripts are supported by reusable geospatial utilities in src/geo_tools/ and project criteria and grid configuration files in config/.
+
+## Repository Structure
+
+```
+Wind-Farm-Suitability-Screening/
+├── Wind_Farm_Suitability/   # ArcGIS Pro project
+├── config/                   # Analysis criteria and grid configuration
+├── data/                    # Data directories and project inputs
+├── figures/                 # Final project figures
+├── scripts/                 # Production analysis scripts
+├── src/geo_tools/           # Reusable geospatial utilities
+├── .gitignore
+├── environment.yml          # Python environment
+├── METHODS.md               # Detailed methodology
+└── README.md
+```
+
+## Technical Documentation
+
+The detailed methodology documents the datasets, screening thresholds, suitability criteria, scoring approach, candidate-area analysis, assumptions, and reproducibility considerations.
+
+Technical Methods [PLACEHOLDER]
+
+## StoryMap
+
+The interactive StoryMap presents the project results, maps, workflow, discussion, and limitations in a visual format.
+
+View the Wind Farm Suitability Screening StoryMap [PLACEHOLDER]
+
+## Limitations
+
+This project is a regional screening analysis, not a site-selection or development feasibility study.
+
+The results do not account for several site-specific considerations, including:
+
+- Property ownership and parcel availability
+- Detailed aviation review
+- Noise requirements and setbacks
+- Detailed environmental review
+- Transmission capacity or interconnection feasibility
+- Detailed road and construction access
+- Turbine layout and engineering considerations
+- Construction and operating costs
+- Project economics
+
+Candidate areas should therefore be treated as locations for further investigation rather than proposed wind development sites.
+
+## Tools
+
+The project uses:
+
+- Esri ArcGIS Pro
+- Python
+- Rasterio
+- GeoPandas
+- NumPy
+- Pandas
+- PyYAML
+- Jupyter/Python environment tools
+- Git and GitHub
+
+## Project Purpose
+
+This project was developed as a portfolio example of applying GIS, geospatial data processing, and reproducible analytical workflows to a regional planning and environmental screening problem.
+
+The workflow emphasizes transparent criteria, explicit constraints, reproducible processing, and clear communication of results.
