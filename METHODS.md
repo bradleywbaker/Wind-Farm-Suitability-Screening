@@ -200,20 +200,22 @@ The production workflow is implemented through three scripts:
 scripts/
 ├── 01_prepare_data.py
 ├── 02_build_suitability_model.py
-└── 03_create_csets, thresholds, classifications, and assumptions used in the model. Site-specific factors such as property ownership, detailed environmental review, aviation requirements, noise setbacks, transmission capacity, engineering feasibility, construction access, and project economics were not evaluated.
+└── 03_create_candidates.py
 ```
+
+The scripts use project configuration files and reusable geospatial utilities to support a consistent, reproducible analysis workflow.
 
 ## Results Summary
 
 The statewide analysis evaluated 19,390,085 cells on the 100-meter analysis grid.
 
-After application of all hard constraints, 201,808 cells remained eligible for suitability scoring.
+After application of all hard constraints, 1,060,115 cells remained eligible for suitability scoring.
 
-Suitability scores ranged from 3.00 to 5.00, with a mean of 4.31 and a median of 4.40.
+Suitability scores ranged from 3.00 to 5.00, with a mean of 4.13 and a median of 4.20.
 
-Moderate and High suitability areas covered 1,088.27 km² before candidate-area filtering.
+Moderate and High suitability areas covered 2,371.11 km² before candidate-area filtering.
 
-The candidate-area analysis identified 2,580 contiguous Moderate and High suitability regions. After applying the 5 km² minimum area threshold, 26 candidate areas remained, covering 678.64 km².
+The candidate-area analysis identified 4,550 contiguous Moderate and High suitability regions. After applying the 5 km² minimum area threshold, 42 candidate areas remained, covering 1,735.51 km².
 
 ## Limitations and Assumptions
 

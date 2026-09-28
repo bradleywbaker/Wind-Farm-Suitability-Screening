@@ -56,17 +56,17 @@ The final suitability classes are:
 
 The final step looks beyond individual raster cells and identifies larger contiguous areas that may warrant further consideration.
 
-Moderate and High suitability cells are grouped using 8-neighbor connectivity. Contiguous areas smaller than 5 km² are removed, and the remaining areas are summarized as candidate regions.
+Moderate and High suitability cells are grouped using 8-neighbor connectivity. Contiguous areas smaller than 5 km² are removed, and the remaining areas are summarized as candidate areas.
 
 ## Results
 
-The statewide screening evaluated 19,390,085 cells on the 100 m analysis grid. After applying all hard constraints, 201,808 cells remained eligible for suitability scoring.
+The statewide screening evaluated 19,390,085 cells on the 100 m analysis grid. After applying all hard constraints, 1,060,115 cells remained eligible for suitability scoring.
 
-The resulting suitability scores ranged from 3.00 to 5.00, with a mean of 4.31 and a median of 4.40.
+The resulting suitability scores ranged from 3.00 to 5.00, with a mean of 4.13 and a median of 4.20.
 
-Moderate and High suitability areas covered 1,088.27 km² before the candidate-area filter was applied.
+Moderate and High suitability areas covered 2,371.11 km² before the candidate-area filter was applied.
 
-The candidate-area analysis identified 2,580 contiguous Moderate and High suitability regions. After applying the minimum 5 km² area threshold, 26 candidate areas remained, covering 678.64 km².
+The candidate-area analysis identified 4,550 contiguous Moderate and High suitability regions. After applying the minimum 5 km² area threshold, 42 candidate areas remained, covering 1,735.51 km².
 
 ## Reproducible Workflow
 
@@ -101,13 +101,13 @@ Wind-Farm-Suitability-Screening/
 
 The detailed methodology documents the datasets, screening thresholds, suitability criteria, scoring approach, candidate-area analysis, assumptions, and reproducibility considerations.
 
-Technical Methods [PLACEHOLDER]
+Technical Methods: See METHODS.md
 
 ## StoryMap
 
 The interactive StoryMap presents the project results, maps, workflow, discussion, and limitations in a visual format.
 
-View the Wind Farm Suitability Screening StoryMap [PLACEHOLDER]
+StoryMap link will be added here.
 
 ## Limitations
 
