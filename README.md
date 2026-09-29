@@ -107,7 +107,7 @@ Technical Methods: See METHODS.md
 
 The interactive StoryMap presents the project results, maps, workflow, discussion, and limitations in a visual format.
 
-StoryMap link will be added here.
+[View the interactive StoryMap](https://storymaps.arcgis.com/stories/dd9c5ce1ab26404f9a0e4291397680bc)
 
 ## Limitations
 
