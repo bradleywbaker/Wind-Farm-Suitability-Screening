@@ -86,11 +86,6 @@ def prepare_vectors():
         VECTORS / "roads.gpkg",
     )
 
-    process_vector(
-        RAW / "census" / "tl_2020_47_tabblock20.shp",
-        VECTORS / "census_blocks.gpkg",
-    )
-
     prepare_airports()
 
 

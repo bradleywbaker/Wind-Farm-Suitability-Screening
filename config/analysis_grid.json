@@ -1,7 +1,7 @@
 {
     "crs": "EPSG:5070",
     "cell_size": 100,
-    "extent_source": "data/processed/dem/study_area.shp",
+    "extent_source": "data/raw/study_area.geojson",
     "alignment": "project_grid",
     "nodata": -9999
 }
