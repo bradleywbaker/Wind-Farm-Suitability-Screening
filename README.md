@@ -31,7 +31,7 @@ This includes:
 
 ### 2. Apply Constraints and Build the Suitability Model
 
-The analysis first applies hard constraints. Areas are excluded if they fall below the minimum wind resource, exceed the maximum slope, or intersect specified environmental, land-cover, military, or airport constraints.
+The analysis first applies hard constraints. Areas are excluded if they fall below the minimum wind resource, exceed the maximum slope, or intersect specified environmental, land-cover, military, wetland, water, or airport constraints.
 
 Areas that remain are then graded using five criteria:
 
