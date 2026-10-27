@@ -207,7 +207,7 @@ The scripts use project configuration files and reusable geospatial utilities to
 
 ## Results Summary
 
-The statewide analysis evaluated 19,390,085 cells on the 100-meter analysis grid.
+The 100-meter analysis grid contained 19,930,085 cells, including cells outside the Tennessee boundary. 
 
 After application of all hard constraints, 1,060,115 cells remained eligible for suitability scoring.
 
