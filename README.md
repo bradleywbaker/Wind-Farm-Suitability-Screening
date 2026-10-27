@@ -60,11 +60,11 @@ Moderate and High suitability cells are grouped using 8-neighbor connectivity. C
 
 ## Results
 
-The statewide screening evaluated 19,390,085 cells on the 100 m analysis grid. After applying all hard constraints, 1,060,115 cells remained eligible for suitability scoring.
+After applying all hard constraints, 1,060,115 cells (about 10,601 km², roughly 10% of Tennessee's land area) remained eligible for suitability scoring.
 
 The resulting suitability scores ranged from 3.00 to 5.00, with a mean of 4.13 and a median of 4.20.
 
-Moderate and High suitability areas covered 2,371.11 km² before the candidate-area filter was applied.
+Moderate and High suitability areas covered 7,699.68 km² before the candidate-area filter was applied.
 
 The candidate-area analysis identified 4,550 contiguous Moderate and High suitability regions. After applying the minimum 5 km² area threshold, 42 candidate areas remained, covering 1,735.51 km².
 
