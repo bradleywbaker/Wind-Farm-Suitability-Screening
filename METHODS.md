@@ -213,7 +213,7 @@ After application of all hard constraints, 1,060,115 cells remained eligible for
 
 Suitability scores ranged from 3.00 to 5.00, with a mean of 4.13 and a median of 4.20.
 
-Moderate and High suitability areas covered 2,371.11 km² before candidate-area filtering.
+Moderate and High suitability areas covered 7,699.68 km² before candidate-area filtering.
 
 The candidate-area analysis identified 4,550 contiguous Moderate and High suitability regions. After applying the 5 km² minimum area threshold, 42 candidate areas remained, covering 1,735.51 km².
 
